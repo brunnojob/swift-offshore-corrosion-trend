@@ -1,0 +1,18 @@
+$ bash -e -o pipefail -c swiftc Sources/main.swift -o app && ./app --self-test && ./app < examples/input.txt
+Tests passed
+{"currentThickness":9.2,"proposedInspectionYears":2,"remainingYears":6.863193063815397,"slopeMmPerYear":-0.2900000000000002,"slopeSigma":0.01527525231651945}
+
+$ ./app
+{"currentThickness":9.2,"proposedInspectionYears":2,"remainingYears":6.863193063815397,"slopeMmPerYear":-0.2900000000000002,"slopeSigma":0.01527525231651945}
+
+$ ./app
+Missing input
+
+$ ./app
+Finite number required
+
+$ ./app --unsupported
+Unsupported command arguments
+
+$ ./app
+Input record too large
