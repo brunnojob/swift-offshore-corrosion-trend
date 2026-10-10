@@ -1,0 +1,1 @@
+CSV: decimal-year,wall-thickness-mm at one consistent inspection location. CLI minimum thickness 7 mm. Linear regression with two slope standard deviations is a screening estimate, excluding localized pitting and changing corrosion regimes.
