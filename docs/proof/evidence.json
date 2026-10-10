@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "repository": "brunnojob/swift-offshore-corrosion-trend",
-  "source_commit": "adf9f474cc5c0a272e635c667e43929514f5336f",
-  "generated_at": "2026-10-10T02:37:14.300031+00:00",
-  "run_url": "https://github.com/brunnojob/swift-offshore-corrosion-trend/actions/runs/38017615864",
+  "source_commit": "5e3b647b9d77f31878c006d641b955b458d572fe",
+  "generated_at": "2026-10-10T02:45:33.237138+00:00",
+  "run_url": "https://github.com/brunnojob/swift-offshore-corrosion-trend/actions/runs/38018113180",
   "inputs_sha256": {
     ".proof/scenarios.json": "8de03b42617b26e4e1f91a48c1d61ca1c5ed1dd66d88b109a0640d384e6b7dd2",
     "examples/input.txt": "0d04a20734ff77bc81b62456407d2e2474fdcfaddd50776b1f1937ecea296763"
@@ -23,7 +23,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 8.705,
+      "seconds": 11.319,
       "output": "Tests passed\n{\"currentThickness\":9.2,\"proposedInspectionYears\":2,\"remainingYears\":6.863193063815397,\"slopeMmPerYear\":-0.2900000000000002,\"slopeSigma\":0.01527525231651945}\n",
       "output_sha256": "a50c853ac6c12739a4b6cf0781d519eb9d6ad87262a32c9d9852a6876e369150"
     },
@@ -36,7 +36,7 @@
       "exit": 0,
       "expected_exit": 0,
       "passed": true,
-      "seconds": 0.119,
+      "seconds": 0.167,
       "output": "{\"currentThickness\":9.2,\"proposedInspectionYears\":2,\"remainingYears\":6.863193063815397,\"slopeMmPerYear\":-0.2900000000000002,\"slopeSigma\":0.01527525231651945}\n",
       "output_sha256": "1d3c519dc4f3a3bba71930a735f40eecdb07b7cdf40c3f110b551effdd296a9d"
     },
@@ -49,7 +49,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.129,
+      "seconds": 0.159,
       "output": "Missing input\n",
       "output_sha256": "59dde097c155045b6510b44b5d0ee86176974b3476c8b96718ac676f66134e97"
     },
@@ -62,7 +62,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.088,
+      "seconds": 0.109,
       "output": "Finite number required\n",
       "output_sha256": "f3d395290a325a96eabf10d0c91d6ec51ca023f31bee771fcc25ba190b769aa9"
     },
@@ -76,7 +76,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.125,
+      "seconds": 0.056,
       "output": "Unsupported command arguments\n",
       "output_sha256": "a7217611e9bf4e2fd5cbbd1b8b97c5898f154b14da948e9e35008b59b8158bcd"
     },
@@ -89,7 +89,7 @@
       "exit": 2,
       "expected_exit": 2,
       "passed": true,
-      "seconds": 0.107,
+      "seconds": 0.187,
       "output": "Input record too large\n",
       "output_sha256": "45eb187fdae97f09b79c4bcd5c03d9b942872125e5fb5b6a83011b36f8d62333"
     }
